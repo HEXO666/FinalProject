@@ -116,7 +116,6 @@ FinalProject/
 - Ensuring the PDF export maintained styling and formatting was addressed by leveraging browser print-to-PDF functionality.
 
 ---
-<<<<<<< HEAD
 
 ## Future Improvements
 
@@ -127,16 +126,7 @@ FinalProject/
 
 ---
 
-## Submission
 
-To submit, run:
-
-```bash
-submit50 cs50/problems/2025/x/project
-```
-
----
 
 This project showcases my understanding of full-stack web development, database management, and dynamic user interface design, drawing on the key concepts taught in CS50x.
-=======
->>>>>>> eb4f4b888ce94ebf0a112ed5ad7adfc0eacb4f29
+
