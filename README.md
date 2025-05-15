@@ -1,7 +1,7 @@
 # Receipt Generator
 #### Video Demo: https://media-hosting.imagekit.io/d0b1618f0e50420c/Screencast%20from%202025-05-15%2015-08-26.webm?Expires=1841927040&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=G8uUcZGrF--Fd-WSZsdlQHp75EnN90K64Eekeg1qyA-eVCdKMa~JdTUGIjvIl-P-23HBPCrDAHL5on1jMFeN-g-tENqPG09JSPuB-1LsKscIT~EiWT48RnnhtTGeb5CYaIAfRNP-mIhY2-c5-wpsT6rHjrjtKrR6Ucujcc4YNu1dhukLnE41xiDI0FffNMfrA3vC36JsWProOSsUW23NCu6Qm~Mmn3sNO8ZIkWiiefguXTX6Em1tOHdkaiqUsMFwSrvZUjeLfW4mIO-kyahMxEGmrwy3MhCXyQ4~Jp9dArARgZ7cqUu2bNANmoptJ~0BJ~EbZlm0XVUQTaXosCF50g__
 
-
+#### Description:
 ## Project Overview
 
 The Receipt Generator aims to simplify invoice creation for small businesses and freelancers by providing an easy-to-use web app for generating, previewing, and storing receipts. This tool helps reduce manual paperwork and allows for quick access to past invoices, improving record keeping and client communication.
