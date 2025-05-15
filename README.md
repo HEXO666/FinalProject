@@ -1,6 +1,10 @@
 # Receipt Generator
 
-A web-based Receipt Generator for companies, featuring a modern frontend for entering purchase details and generating styled receipts, a Flask backend for storing and retrieving receipts, and a database for persistence. The app supports invoice history, PDF export, and uses a customizable HTML template for invoices.
+#### Video Demo: <YOUR_VIDEO_URL_HERE>
+
+## Project Overview
+
+The Receipt Generator aims to simplify invoice creation for small businesses and freelancers by providing an easy-to-use web app for generating, previewing, and storing receipts. This tool helps reduce manual paperwork and allows for quick access to past invoices, improving record keeping and client communication.
 
 ---
 
@@ -15,10 +19,20 @@ A web-based Receipt Generator for companies, featuring a modern frontend for ent
 
 ---
 
+## Technologies and CS50 Concepts
+
+- **Backend:** Python (Flask), using Flask-SQLAlchemy ORM for database interaction — showcasing understanding of Python, web APIs, and database management.
+- **Frontend:** JavaScript, HTML, CSS — demonstrating dynamic UI manipulation, event handling, and client-server communication (fetch API).
+- **Database:** SQLite for persistence, illustrating knowledge of relational databases and data modeling.
+- **RESTful API design** and use of CORS for frontend-backend integration.
+- **Templating concepts** for generating invoice HTML dynamically.
+
+---
+
 ## Project Structure
 
 ```
-FinalProfject/
+FinalProject/
 ├── backend/
 │   ├── app.py              # Flask backend with API and models
 │   ├── requirements.txt    # Python dependencies
@@ -94,12 +108,32 @@ FinalProfject/
 
 ---
 
-## Notes
-- The app is designed for local or small business use. For production, consider deploying the backend and serving the frontend via a web server.
-- All data is stored locally in SQLite by default.
-- For PDF export, the browser's print-to-PDF is used for best template fidelity.
+## Challenges and Learning Experiences
+
+- Designing a flexible invoice template that could dynamically handle multiple items and discounts required careful DOM manipulation and template design.
+- Managing frontend-backend communication asynchronously using JavaScript's fetch API enhanced my understanding of RESTful services.
+- Implementing database models with relationships in Flask-SQLAlchemy deepened my knowledge of relational data and ORM.
+- Ensuring the PDF export maintained styling and formatting was addressed by leveraging browser print-to-PDF functionality.
 
 ---
 
-## License
-MIT License (or specify your own)
+## Future Improvements
+
+- Add user authentication to secure access to invoices.
+- Enable cloud storage or export/import of invoices.
+- Add support for multiple companies or branches.
+- Enhance PDF generation with libraries like ReportLab or WeasyPrint for better control.
+
+---
+
+## Submission
+
+To submit, run:
+
+```bash
+submit50 cs50/problems/2025/x/project
+```
+
+---
+
+This project showcases my understanding of full-stack web development, database management, and dynamic user interface design, drawing on the key concepts taught in CS50x.
