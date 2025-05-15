@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipt Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Receipt Generator</h1>
+        <form id="receipt-form">
+            <h2>Customer Information</h2>
+            <input type="text" id="customer-name" placeholder="Customer Name" required>
+            <input type="text" id="customer-contact" placeholder="Contact Details">
+            <h2>Items</h2>
+            <div id="items-list"></div>
+            <button type="button" id="add-item">Add Item</button>
+            <h2>Discount/Coupon</h2>
+            <input type="text" id="discount-code" placeholder="Discount Code (optional)">
+            <button type="submit">Generate Receipt</button>
+        </form>
+        <div id="receipt-output"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
