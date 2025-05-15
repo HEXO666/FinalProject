@@ -100,6 +100,3 @@ FinalProfject/
 - For PDF export, the browser's print-to-PDF is used for best template fidelity.
 
 ---
-
-## License
-MIT License (or specify your own)
